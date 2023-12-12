@@ -14,6 +14,7 @@ class Solution {
             int val = (int)c - 65 + 1;
             result += val * Math.pow(26, p);
             p++;
+
         }
         return result;
     }
